@@ -1,0 +1,415 @@
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    word-spacing: 2px;
+}
+
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.main-color{
+    color: #808080
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+ul li{
+    list-style: none;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.color-blue{
+    color: #007BFF;
+}
+
+/* HEADER */
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.brand-name{
+    float: left;
+}
+
+.brand-name>a{
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 900;
+    color: #000000;
+}
+
+.navigation-icon{
+    float: right;
+}
+
+.accent-menu-toggle{
+    border: none;
+    background-color: transparent;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+/* ACCENT BACKGROUND IMAGE */
+.accent-background-image{
+    background-image: url(../img/accent-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.accent-intro{
+    padding-top: 50px;
+}
+
+.accent-intro-heading{
+    font-size: 3em;
+    font-weight: 900;
+    margin-top:40px;
+    width: 360px;
+}
+
+.accent-intro-text{
+    margin-bottom: 55px;
+    font-size: 1.2em;
+    width: 625px;
+}
+
+.read-more-btn{
+    background-color: #007BFF;
+    padding: 14px 30px;
+    border-radius: 30px;
+    margin-left: 5px;
+    border-color: transparent
+}
+
+.read-more-btn:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* ABOUT US */
+.we-are-expert-in-web{
+    margin-top: 60px;
+    margin-bottom: 85px;
+}
+
+.expert-in-web-img{
+    float: left;
+    width: calc(100%/2);
+    box-sizing: border-box;
+}
+
+.expert-in-web-img img{
+    width:540px;
+    margin-top: 55px;
+}
+
+.expert-in-web-content{
+    float: left;
+    width: calc(100%/2);
+    padding-left: 90px;
+    box-sizing: border-box;
+}
+
+.section-title{
+    width: 390px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.span-title{
+    text-transform: uppercase;
+    color: #B3B3B3;
+   letter-spacing: 1.5px;
+}
+
+.expert-in-web-list{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.expert-in-web-list li{
+    margin-left: -36px;
+}
+
+.fa-check{
+    color:#28a745;
+    margin-right: 15px;
+    margin-bottom: 12px;
+}
+
+.fa-play-circle{
+    font-size: 1.3em;
+    margin-right: 12px;
+}
+
+/* MEET THE TEAM */
+.our-team-members{
+    width: calc(100%/2);
+    box-sizing: border-box;
+    float: left;
+}
+
+.our-team-members-photo img{
+    width:500px;
+}
+
+.our-team-members-heading{
+    width: 394px;
+    margin: 50px 80px;
+}
+
+.our-team-members-name{
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.our-team-members-content{
+    width: 400px;
+}
+
+.our-team-members-content p{
+    margin-bottom: 20px;
+}
+
+.our-team-members-contact{
+    margin-right: 10px;
+}
+
+/* WHAT WE DO */
+.what-we-do-background{
+    background-color: #f8f9fa;
+    padding: 50px 0px
+}
+
+.what-we-do-list-item{
+    border: 1px solid #eee;
+    border-top: 2px solid #007BFF;
+    width: calc(100%/3 - 20px);
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.what-we-do-list-item-content{
+    width: 290px;
+    padding: 0px 35px 40px;
+}
+
+.what-we-do-list-item-content h3{
+    margin-top: 0px;
+}
+
+.what-we-do-list-item-content p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.what-we-do-icon{
+    font-size: 2.5em;
+    line-height: 2.5;
+}
+
+.learn-more-btn{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.8em;
+    letter-spacing: 1.3px;
+}
+
+/* RECENT WORKS */
+.recent-works{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.section-title-center{
+    width: 520px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.recent-work-list{
+    margin-top: 60px;
+}
+
+.recent-work-list-item{
+    margin-bottom: 50px;
+}
+
+.recent-work-item-list-img{
+    width: calc(100%/2);
+    float: left;
+    box-sizing: border-box;
+}
+
+.recent-work-item-list-img img{
+    width: 530px;
+    margin-bottom: -8px;
+}
+
+.recent-work-item-list-content{
+    width: calc(100%/2);
+    float: left;
+    box-sizing: border-box;
+}
+
+.recent-work-item-list-content-text{
+    padding: 0px 60px;  
+}
+
+.role{
+    line-height: 5;
+    color: black!important;
+}
+
+
+blockquote{
+    width: 450px;
+    /* margin-top:20px;
+    margin-bottom: 25px; */
+    margin: 20px 0px;
+
+}
+
+blockquote p:first-child{
+    border-left: 10px #eee solid;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.author{
+    margin-left: 20px;
+}
+
+blockquote p{
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+blockquote img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+/* OUR CLIENT SAYING */
+.our-client-saying{
+    background-color: #f8f9fa;
+    padding: 50px;
+}
+
+.our-client-saying-list-item{
+    float: left;
+    width: calc(100%/2);
+    box-sizing: border-box;
+}
+
+/* GET IN TOUCH */
+.get-in-touch-form{
+    position: relative;
+    padding: 20px 0px;
+    top:70px;
+    border: 3px solid #f6f6f6;
+    background-color: white;
+}
+
+.get-in-touch-form form{
+    margin: 35px;
+}
+
+.form-control{
+    height: 35px;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    margin-right: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.form-name{
+    width: 500px;
+}
+
+.form-email, textarea{
+    width: 1039px;
+}
+
+textarea{
+    height: 150px!important;
+}
+
+/* FOOTER */
+footer{
+    background-color: #333333;
+    padding: 100px;
+}
+
+.footer-list{
+    margin-top: 50px;
+}
+
+.footer-list-item{
+    width: calc(100%/3);
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-about-us p{
+    width: 362px;
+}
+
+.footer-navigation h3, nav{
+    margin-left: 85px;
+}
+
+.footer-navigation nav{
+    line-height: 2;
+    margin-left: 60px;
+}
+
+.footer-subscribe input{
+    height: 30px;
+    padding: 5px;
+    width: 365px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 1em;
+    border-color: #333333;
+    background: #4d4d4d;
+    border-width: 0px;
+}
+
+.footer-social-media{
+    text-align: center;
+    margin-top: 85px;
+    line-height: 3;
+}
+
+.footer-social-media a{
+    padding: 10px;
+}
